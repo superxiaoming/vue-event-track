@@ -1,6 +1,6 @@
 {
   "name": "vue-event-track",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue-event-track work for data collection, main in Vue project",
   "main": "index.js",
   "scripts": {

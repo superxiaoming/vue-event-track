@@ -1,5 +1,5 @@
-import Stack from './core/stack'
-import { directive } from './core/directive'
+import Stack from './src/core/stack'
+import { directive } from './src/core/directive'
 // import { afterRouter } from './core/router'
 const stack = new Stack()
 
