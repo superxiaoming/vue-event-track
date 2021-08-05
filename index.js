@@ -1,6 +1,6 @@
 import Stack from './core/stack'
 import { directive } from './core/directive'
-import { afterRouter } from './core/router'
+// import { afterRouter } from './core/router'
 const stack = new Stack()
 
 const vueEventTrack = {}
@@ -9,7 +9,7 @@ vueEventTrack.install = function(Vue, options) {
   directive(Vue, stack)
 
   // 路由埋点
-  afterRouter(options.router)
+  // afterRouter(options.router)
 
   // 每两分钟执行提交操作
   setInterval(() => {
